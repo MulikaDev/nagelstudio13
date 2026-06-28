@@ -1,0 +1,40 @@
+:root {
+  /* ========= COLORS ========= */
+
+  --color-bg: #faf8f5;
+  --color-bg-soft: #f2ece6;
+
+  --color-text: #1c1c1c;
+  --color-muted: #6f6663;
+
+  --color-primary: #4a2025;
+  --color-primary-hover: #98180b;
+
+  --color-border: #e7e0d9;
+  --color-white: #ffffff;
+
+  /* ========= TYPOGRAPHY ========= */
+
+  --font-primary: var(--font-montserrat);
+
+  /* ========= LAYOUT ========= */
+
+  --container-width: 1200px;
+
+  --section-padding-mobile: 64px;
+  --section-padding-desktop: 104px;
+
+  /* ========= RADIUS ========= */
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+
+  /* ========= SHADOWS ========= */
+
+  --shadow-soft: 0 20px 60px rgba(74, 32, 37, 0.08);
+
+  /* ========= TRANSITIONS ========= */
+
+  --transition-main: 220ms ease;
+}
