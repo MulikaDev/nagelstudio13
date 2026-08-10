@@ -1,9 +1,15 @@
+import Link from "next/link";
+
 export default function Logo() {
   return (
-    <div className="flex items-center">
+    <Link
+      href="/"
+      className="flex items-center transition-opacity duration-300 hover:opacity-80"
+      aria-label="Zur Startseite"
+    >
       <span className="text-[22px] font-semibold tracking-[0.04em] text-[var(--color-primary)]">
-        Nagel Studio <span className="tracking-normal font-bold">· 13</span>
+        Nagel Studio <span className="font-bold tracking-normal">· 13</span>
       </span>
-    </div>
+    </Link>
   );
 }

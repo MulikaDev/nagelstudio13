@@ -1,7 +1,8 @@
 "use client";
 
 import { Menu, X } from "lucide-react";
-import { useState } from "react";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
 
 import Container from "../ui/Container";
 import Logo from "../ui/Logo";
@@ -15,9 +16,22 @@ const navItems = [
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
+
+  const getHref = (href: string) => {
+    return pathname === "/" ? href : `/${href}`;
+  };
+
+  useEffect(() => {
+    document.body.style.overflow = isOpen ? "hidden" : "";
+
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isOpen]);
 
   return (
-    <header className="sticky top-0 z-50 bg-white/75 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 bg-white/50 backdrop-blur-xl">
       <Container>
         <div className="flex h-[72px] items-center justify-between">
           <Logo />
@@ -26,7 +40,7 @@ export default function Header() {
             {navItems.map((item) => (
               <a
                 key={item.href}
-                href={item.href}
+                href={getHref(item.href)}
                 className="group relative text-sm font-medium text-[var(--color-text)] transition-colors duration-300 hover:text-[var(--color-primary)]"
               >
                 {item.label}
@@ -39,7 +53,8 @@ export default function Header() {
             type="button"
             className="inline-flex items-center justify-center md:hidden"
             onClick={() => setIsOpen((current) => !current)}
-            aria-label="Menü öffnen"
+            aria-label={isOpen ? "Menü schließen" : "Menü öffnen"}
+            aria-expanded={isOpen}
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -53,7 +68,7 @@ export default function Header() {
               {navItems.map((item) => (
                 <a
                   key={item.href}
-                  href={item.href}
+                  href={getHref(item.href)}
                   onClick={() => setIsOpen(false)}
                   className="text-lg font-medium text-[var(--color-primary)]"
                 >

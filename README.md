@@ -34,3 +34,44 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+:root {
+/_ ========= COLORS ========= _/
+
+--color-bg: #faf8f5;
+--color-bg-soft: #f2ece6;
+
+--color-text: #1c1c1c;
+--color-muted: #6f6663;
+
+--color-primary: #4a2025;
+--color-primary-hover: #98180b;
+
+--color-border: #e7e0d9;
+--color-white: #ffffff;
+
+/_ ========= TYPOGRAPHY ========= _/
+
+--font-primary: var(--font-montserrat);
+
+/_ ========= LAYOUT ========= _/
+
+--container-width: 1200px;
+
+--section-padding-mobile: 64px;
+--section-padding-desktop: 104px;
+
+/_ ========= RADIUS ========= _/
+
+--radius-sm: 8px;
+--radius-md: 16px;
+--radius-lg: 28px;
+
+/_ ========= SHADOWS ========= _/
+
+--shadow-soft: 0 20px 60px rgba(74, 32, 37, 0.08);
+
+/_ ========= TRANSITIONS ========= _/
+
+--transition-main: 220ms ease;
+}

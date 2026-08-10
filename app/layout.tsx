@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
+import { localBusinessSchema } from "./structured-data";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -9,9 +10,61 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Nagel Studio 13. | Nagelstudio in Beverstedt",
+  title: {
+    default: "Nagel Studio · 13 | Nagelstudio in Beverstedt",
+    template: "%s | Nagel Studio · 13",
+  },
+
   description:
-    "Nagel Studio 13 ist ein persönliches Home Studio für professionelle Nagelpflege in Beverstedt.",
+    "Professionelle Maniküre, Shellac, Modellage und Pediküre in Beverstedt. Individuelle Nagelpflege in stilvoller Atmosphäre. Jetzt Termin vereinbaren.",
+
+  keywords: [
+    "Nagelstudio Beverstedt",
+    "Nageldesign Beverstedt",
+    "Maniküre Beverstedt",
+    "Pediküre Beverstedt",
+    "Shellac Beverstedt",
+    "Modellage",
+    "Gelnägel",
+    "Nagelpflege",
+    "Nagel Studio 13",
+  ],
+
+  authors: [
+    {
+      name: "Nagel Studio · 13",
+    },
+  ],
+
+  creator: "Nagel Studio · 13",
+
+  publisher: "Nagel Studio · 13",
+
+  applicationName: "Nagel Studio · 13",
+
+  category: "Beauty",
+
+  openGraph: {
+    images: ["/opengraph-image"],
+  },
+
+  twitter: {
+    images: ["/opengraph-image"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  alternates: {
+    canonical: "/",
+  },
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
@@ -21,7 +74,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de" className={`${montserrat.variable} antialiased`}>
-      <body>{children}</body>
+      <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(localBusinessSchema),
+          }}
+        />
+
+        {children}
+      </body>
     </html>
   );
 }

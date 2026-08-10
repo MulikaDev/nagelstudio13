@@ -14,7 +14,7 @@ import Section from "../ui/Section";
 
 export default function Contact() {
   return (
-    <Section id="contact" className="!pt-12 !pb-12">
+    <Section id="contact" className="!pt-18 !pb-12">
       <Container>
         <div className="mx-auto max-w-3xl text-center">
           <p className="mb-4 text-sm font-medium uppercase tracking-[0.22em] text-[var(--color-muted)]">
@@ -27,7 +27,8 @@ export default function Contact() {
 
           <p className="mx-auto mt-8 max-w-2xl text-lg leading-8 text-[var(--color-text)]">
             Schreiben Sie uns über WhatsApp oder besuchen Sie unser Instagram.
-            Wir freuen uns darauf, Sie im Nagel Studio ·13 willkommen zu heißen.
+            Wir freuen uns darauf, Sie im Nagel Studio · 13 willkommen zu
+            heißen.
           </p>
 
           <div className="mt-12 flex flex-wrap justify-center gap-4">

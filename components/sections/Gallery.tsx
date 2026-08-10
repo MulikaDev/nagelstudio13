@@ -1,35 +1,28 @@
 import Image from "next/image";
 
 import Container from "../ui/Container";
-import Heading from "../ui/Heading";
 import Section from "../ui/Section";
+import SectionHeader from "../ui/SectionHeader";
 
 const galleryImages = [
-  "/images/galery/gallery1.png",
-  "/images/galery/gallery2.png",
-  "/images/galery/gallery3.png",
-  "/images/galery/gallery4.png",
-  "/images/galery/gallery5.png",
-  "/images/galery/gallery6.png",
-  "/images/galery/gallery7.png",
+  "/nagelstudio13/images/galery/gallery1.png",
+  "/nagelstudio13/images/galery/gallery2.png",
+  "/nagelstudio13/images/galery/gallery3.png",
+  "/nagelstudio13/images/galery/gallery4.png",
+  "/nagelstudio13/images/galery/gallery5.png",
+  "/nagelstudio13/images/galery/gallery6.png",
+  "/nagelstudio13/images/galery/gallery7.png",
 ];
 
 export default function Gallery() {
   return (
-    <Section id="gallery">
+    <Section id="gallery" className="!pt-18 !pb-12">
       <Container>
-        <div className="mx-auto max-w-3xl text-center">
-          <p className="mb-4 text-sm font-medium uppercase tracking-[0.22em] text-[var(--color-muted)]">
-            Galerie
-          </p>
-
-          <Heading className="text-center">Unsere Arbeiten</Heading>
-
-          <p className="mx-auto mt-8 max-w-2xl text-lg leading-8 text-[var(--color-text)]">
-            Entdecken Sie eine Auswahl unserer schönsten Arbeiten und lassen Sie
-            sich für Ihren nächsten Termin inspirieren.
-          </p>
-        </div>
+        <SectionHeader
+          eyebrow="Galerie"
+          title="Unsere Arbeiten"
+          description="Entdecken Sie eine Auswahl unserer schönsten Arbeiten und lassen Sie sich für Ihren nächsten Termin inspirieren."
+        />
 
         <div className="mx-auto mt-20 grid max-w-7xl gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {galleryImages.map((image, index) => (
