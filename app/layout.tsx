@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-import { localBusinessSchema } from "./structured-data";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -74,16 +73,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="de" className={`${montserrat.variable} antialiased`}>
-      <body>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(localBusinessSchema),
-          }}
-        />
-
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
