@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 import { siteConfig } from "@/data/site";
 import Button from "../ui/Button";
@@ -39,16 +39,20 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* Photo */}
+            {/* Logo */}
             <div className="flex justify-center lg:justify-end">
-              <div className="relative aspect-[4/5] w-full max-w-md overflow-hidden rounded-[32px] shadow-2xl lg:max-w-[440px]">
-                <Image
-                  src="/nagelstudio13/images/hero/hero-main.jpg"
-                  alt="Nagel Studio"
-                  fill
-                  priority
-                  className="object-cover"
-                />
+              <div className="relative flex aspect-[4/5] w-full max-w-md items-center justify-center overflow-hidden rounded-[32px] bg-[var(--color-bg-soft)] shadow-2xl lg:max-w-[440px]">
+                <div className="flex flex-col items-center justify-center gap-8 p-8 text-center text-[var(--color-primary)]">
+                  <span className="text-4xl font-light tracking-[0.25em] sm:text-5xl">
+                    NAGEL
+                    <br />
+                    STUDIO
+                  </span>
+                  <div className="h-px w-16 bg-[var(--color-primary)] opacity-50" />
+                  <span className="text-4xl font-semibold tracking-widest sm:text-5xl">
+                    13
+                  </span>
+                </div>
               </div>
             </div>
           </div>
