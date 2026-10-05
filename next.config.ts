@@ -1,14 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
-
+  // Налаштування для Vercel
   images: {
-    unoptimized: true,
+    unoptimized: true, // Залиште, якщо не хочете використовувати платну оптимізацію Vercel або якщо це статичний сайт
   },
-
-  basePath: "/nagelstudio13",
-  assetPrefix: "/nagelstudio13/",
 };
 
 export default nextConfig;
