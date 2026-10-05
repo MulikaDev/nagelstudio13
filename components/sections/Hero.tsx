@@ -43,13 +43,13 @@ export default function Hero() {
 
             {/* Photo / Logo */}
             <div className="flex justify-center lg:justify-end">
-              <div className="relative aspect-[4/5] w-full max-w-md overflow-hidden rounded-[32px] shadow-2xl lg:max-w-[440px]">
+              <div className="relative aspect-[4/5] w-full max-w-sm lg:max-w-[380px]">
                 <Image
                   src={heroImage}
                   alt="Nagel Studio Logo"
                   fill
                   priority
-                  className="object-cover"
+                  className="object-contain mix-blend-multiply"
                 />
               </div>
             </div>
