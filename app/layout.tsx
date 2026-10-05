@@ -9,6 +9,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://mulikadev.github.io/nagelstudio13"),
   title: {
     default: "Nagel Studio · 13 | Nagelstudio in Beverstedt",
     template: "%s | Nagel Studio · 13",

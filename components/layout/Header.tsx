@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 import { Menu, X } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -38,14 +40,14 @@ export default function Header() {
 
           <nav className="hidden items-center gap-10 md:flex">
             {navItems.map((item) => (
-              <a
+              <Link
                 key={item.href}
                 href={getHref(item.href)}
                 className="group relative text-sm font-medium text-[var(--color-text)] transition-colors duration-300 hover:text-[var(--color-primary)]"
               >
                 {item.label}
                 <span className="absolute -bottom-2 left-0 h-px w-full origin-left scale-x-0 bg-[var(--color-primary)] transition-transform duration-300 group-hover:scale-x-100" />
-              </a>
+              </Link>
             ))}
           </nav>
 
@@ -66,14 +68,14 @@ export default function Header() {
           <Container>
             <nav className="flex flex-col gap-6 py-8">
               {navItems.map((item) => (
-                <a
+                <Link
                   key={item.href}
                   href={getHref(item.href)}
                   onClick={() => setIsOpen(false)}
                   className="text-lg font-medium text-[var(--color-primary)]"
                 >
                   {item.label}
-                </a>
+                </Link>
               ))}
             </nav>
           </Container>

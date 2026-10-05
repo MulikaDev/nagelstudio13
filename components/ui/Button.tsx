@@ -14,9 +14,13 @@ export default function Button({
   variant = "primary",
   className,
 }: ButtonProps) {
+  const isExternal = href.startsWith("http");
+
   return (
     <Link
       href={href}
+      target={isExternal ? "_blank" : undefined}
+      rel={isExternal ? "noopener noreferrer" : undefined}
       className={clsx(
         "inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold transition-colors",
         variant === "primary" &&
