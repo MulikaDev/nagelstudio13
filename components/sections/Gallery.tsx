@@ -5,13 +5,13 @@ import Section from "../ui/Section";
 import SectionHeader from "../ui/SectionHeader";
 
 const galleryImages = [
-  "/images/galery/gallery1.png",
-  "/images/galery/gallery2.png",
-  "/images/galery/gallery3.png",
-  "/images/galery/gallery4.png",
-  "/images/galery/gallery5.png",
-  "/images/galery/gallery6.png",
-  "/images/galery/gallery7.png",
+  "/nagelstudio13/images/galery/gallery1.png",
+  "/nagelstudio13/images/galery/gallery2.png",
+  "/nagelstudio13/images/galery/gallery3.png",
+  "/nagelstudio13/images/galery/gallery4.png",
+  "/nagelstudio13/images/galery/gallery5.png",
+  "/nagelstudio13/images/galery/gallery6.png",
+  "/nagelstudio13/images/galery/gallery7.png",
 ];
 
 export default function Gallery() {
