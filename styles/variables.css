@@ -1,17 +1,17 @@
 :root {
   /* ========= COLORS ========= */
 
-  --color-bg: #F3EDE3;
-  --color-bg-soft: #FAF8F4;
+  --color-bg: #e6ddd1; /* Ідеально збігається з фоном логотипу */
+  --color-bg-soft: #F3EDE3;
 
   --color-text: #171615;
-  --color-muted: #867261; /* Трохи затемнений бежевий для кращої читабельності */
+  --color-muted: #867261;
 
   --color-primary: #4A171B;
   --color-primary-hover: #6a2328;
 
-  --color-border: #d4c5b6; /* Світліший відтінок бежевого для ніжних ліній */
-  --color-accent: #B89B82; /* Нюдовий бежевий для акцентів */
+  --color-border: #d4c5b6;
+  --color-accent: #B89B82;
   --color-white: #ffffff;
 
   /* ========= TYPOGRAPHY ========= */
