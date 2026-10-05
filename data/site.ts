@@ -16,7 +16,7 @@ export const siteConfig = {
     location: "Beverstedt · Deutschland",
     phone: "+49 171 277 87 83",
     whatsapp: "https://wa.me/491712778783",
-    instagram: "https://www.instagram.com/nagel.studio13",
+    instagram: "https://www.instagram.com/nagelstudio_13/",
     maps: "https://www.google.com/maps/search/?api=1&query=Kirchwistedter%20Hauptstra%C3%9Fe%209%2C%2027616%20Beverstedt",
     openingHours: [
       "Mo – Fr: 09:00–18:00",
