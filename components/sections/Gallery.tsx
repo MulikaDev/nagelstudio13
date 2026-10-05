@@ -4,15 +4,15 @@ import Container from "../ui/Container";
 import Section from "../ui/Section";
 import SectionHeader from "../ui/SectionHeader";
 
-const galleryImages = [
-  "/nagelstudio13/images/galery/gallery1.png",
-  "/nagelstudio13/images/galery/gallery2.png",
-  "/nagelstudio13/images/galery/gallery3.png",
-  "/nagelstudio13/images/galery/gallery4.png",
-  "/nagelstudio13/images/galery/gallery5.png",
-  "/nagelstudio13/images/galery/gallery6.png",
-  "/nagelstudio13/images/galery/gallery7.png",
-];
+import img1 from "@/public/images/galery/gallery1.png";
+import img2 from "@/public/images/galery/gallery2.png";
+import img3 from "@/public/images/galery/gallery3.png";
+import img4 from "@/public/images/galery/gallery4.png";
+import img5 from "@/public/images/galery/gallery5.png";
+import img6 from "@/public/images/galery/gallery6.png";
+import img7 from "@/public/images/galery/gallery7.png";
+
+const galleryImages = [img1, img2, img3, img4, img5, img6, img7];
 
 export default function Gallery() {
   return (
@@ -27,7 +27,7 @@ export default function Gallery() {
         <div className="mx-auto mt-20 grid max-w-7xl gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {galleryImages.map((image, index) => (
             <div
-              key={image}
+              key={index}
               className="group relative aspect-[3/4] overflow-hidden rounded-[28px] bg-[var(--color-bg-soft)] shadow-sm transition-shadow duration-500 hover:shadow-2xl"
             >
               <Image

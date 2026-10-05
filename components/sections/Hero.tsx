@@ -7,6 +7,8 @@ import FadeIn from "../ui/FadeIn";
 import Heading from "../ui/Heading";
 import Section from "../ui/Section";
 
+import heroImage from "@/public/images/hero/hero-main.png";
+
 export default function Hero() {
   return (
     <Section className="pt-6 pb-8 sm:pt-8 sm:pb-4 lg:pt-10 lg:pb-12">
@@ -43,7 +45,7 @@ export default function Hero() {
             <div className="flex justify-center lg:justify-end">
               <div className="relative aspect-[4/5] w-full max-w-md overflow-hidden rounded-[32px] shadow-2xl lg:max-w-[440px]">
                 <Image
-                  src="/nagelstudio13/images/hero/hero-main.png"
+                  src={heroImage}
                   alt="Nagel Studio Logo"
                   fill
                   priority

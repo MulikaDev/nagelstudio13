@@ -1,16 +1,17 @@
 :root {
   /* ========= COLORS ========= */
 
-  --color-bg: #faf8f5;
-  --color-bg-soft: #f2ece6;
+  --color-bg: #F3EDE3;
+  --color-bg-soft: #FAF8F4;
 
-  --color-text: #1c1c1c;
-  --color-muted: #6f6663;
+  --color-text: #171615;
+  --color-muted: #867261; /* Трохи затемнений бежевий для кращої читабельності */
 
-  --color-primary: #4a2025;
-  --color-primary-hover: #98180b;
+  --color-primary: #4A171B;
+  --color-primary-hover: #6a2328;
 
-  --color-border: #e7e0d9;
+  --color-border: #d4c5b6; /* Світліший відтінок бежевого для ніжних ліній */
+  --color-accent: #B89B82; /* Нюдовий бежевий для акцентів */
   --color-white: #ffffff;
 
   /* ========= TYPOGRAPHY ========= */
