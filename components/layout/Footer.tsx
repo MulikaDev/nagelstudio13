@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="border-t border-[var(--color-border)] pt-12">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-2xl font-semibold tracking-[0.01em] text-[var(--color-primary)]">
-              Nagel Studio · 13
+              NAGELSTUDIO · 13
             </h2>
 
             <p className="mt-3 text-[var(--color-muted)]">

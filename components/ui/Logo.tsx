@@ -8,7 +8,7 @@ export default function Logo() {
       aria-label="Zur Startseite"
     >
       <span className="text-[22px] font-semibold tracking-[0.04em] text-[var(--color-primary)]">
-        Nagel Studio <span className="font-bold tracking-normal">· 13</span>
+        NAGELSTUDIO <span className="font-bold tracking-normal">· 13</span>
       </span>
     </Link>
   );
