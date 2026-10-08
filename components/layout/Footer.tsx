@@ -58,7 +58,7 @@ export default function Footer() {
 
             <div className="mt-10 border-t border-[var(--color-border)] pt-6">
               <p className="text-xs tracking-wide text-[var(--color-muted)]">
-                © {new Date().getFullYear()} Nagel Studio · 13
+                © {new Date().getFullYear()} NAGELSTUDIO · 13
               </p>
 
               <div className="mt-4 flex justify-center gap-5 text-xs font-medium text-[var(--color-muted)]">
