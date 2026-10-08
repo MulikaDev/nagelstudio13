@@ -97,7 +97,7 @@ export default function Services() {
                   >
                     <div className="flex flex-col gap-7 sm:flex-row sm:items-start sm:justify-between">
                       <div className="max-w-2xl">
-                        <span className="inline-flex rounded-full bg-[var(--color-primary)] px-4 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--color-text)]">
+                        <span className="inline-flex rounded-full bg-[var(--color-primary)] px-4 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-white">
                           {service.set}
                         </span>
 
