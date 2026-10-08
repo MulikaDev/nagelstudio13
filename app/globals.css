@@ -4,6 +4,14 @@
 @theme inline {
   --color-background: var(--color-bg);
   --color-foreground: var(--color-text);
+  --color-primary: var(--color-primary);
+  --color-primary-hover: var(--color-primary-hover);
+  --color-accent: var(--color-accent);
+  --color-muted: var(--color-muted);
+  --color-border: var(--color-border);
+  --color-bg-soft: var(--color-bg-soft);
+  --color-white: var(--color-white);
+  --color-black: var(--color-text);
   --font-sans: var(--font-montserrat);
 }
 

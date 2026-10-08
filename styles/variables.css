@@ -1,18 +1,21 @@
 :root {
   /* ========= COLORS ========= */
 
-  --color-bg: #e6ddd1; /* Ідеально збігається з фоном логотипу */
-  --color-bg-soft: #F3EDE3;
+  /* Кремовий фон */
+  --color-bg: #F3EDE3;
+  --color-bg-soft: #FAF8F4; /* Теплий білий */
 
+  /* Чорний / глибокий графіт */
   --color-text: #171615;
   --color-muted: #867261;
 
-  --color-primary: #4A171B;
-  --color-primary-hover: #6a2328;
+  /* Нюдовий бежевий замість старого червоного */
+  --color-primary: #B89B82;
+  --color-primary-hover: #a3876e; /* трохи темніший нюдовий для hover */
 
   --color-border: #d4c5b6;
   --color-accent: #B89B82;
-  --color-white: #ffffff;
+  --color-white: #FAF8F4;
 
   /* ========= TYPOGRAPHY ========= */
 
@@ -33,7 +36,7 @@
 
   /* ========= SHADOWS ========= */
 
-  --shadow-soft: 0 20px 60px rgba(74, 32, 37, 0.08);
+  --shadow-soft: 0 20px 60px rgba(23, 22, 21, 0.08); /* Оновив тінь під графіт */
 
   /* ========= TRANSITIONS ========= */
 
