@@ -25,7 +25,7 @@ export default function Values() {
             {value.number}
           </p>
           <div className="mx-auto mt-4 h-px w-12 bg-[var(--color-border)]" />
-          <h3 className="mt-4 text-x1 font-semibold text-[var(--color-primary)]">
+          <h3 className="mt-4 text-x1 font-semibold text-[var(--color-text)]">
             {value.title}
           </h3>
 

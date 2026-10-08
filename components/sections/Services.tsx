@@ -101,7 +101,7 @@ export default function Services() {
                           {service.set}
                         </span>
 
-                        <h4 className="mt-5 text-2xl font-semibold text-[var(--color-primary)]">
+                        <h4 className="mt-5 text-2xl font-semibold text-[var(--color-text)]">
                           {service.title}
                         </h4>
 
@@ -111,7 +111,7 @@ export default function Services() {
                       </div>
 
                       <div className="shrink-0 border-t border-[var(--color-border)] pt-5 text-left sm:border-t-0 sm:pt-0 sm:text-right">
-                        <p className="text-xl font-bold text-[var(--color-primary)]">
+                        <p className="text-xl font-bold text-[var(--color-text)]">
                           {service.price}
                         </p>
 

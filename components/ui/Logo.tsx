@@ -7,7 +7,7 @@ export default function Logo() {
       className="flex items-center transition-opacity duration-300 hover:opacity-80"
       aria-label="Zur Startseite"
     >
-      <span className="text-[22px] font-semibold tracking-[0.04em] text-[var(--color-primary)]">
+      <span className="text-[22px] font-semibold tracking-[0.04em] text-[var(--color-text)]">
         NAGELSTUDIO <span className="font-bold tracking-normal">· 13</span>
       </span>
     </Link>

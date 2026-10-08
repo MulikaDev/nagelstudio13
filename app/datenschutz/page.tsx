@@ -24,7 +24,7 @@ export default function DatenschutzPage() {
 
               <div className="mt-12 space-y-10 leading-8 text-[var(--color-text)]">
                 <section>
-                  <h2 className="mb-3 text-xl font-semibold text-[var(--color-primary)]">
+                  <h2 className="mb-3 text-xl font-semibold text-[var(--color-text)]">
                     Allgemeine Hinweise
                   </h2>
 
@@ -37,7 +37,7 @@ export default function DatenschutzPage() {
                 </section>
 
                 <section>
-                  <h2 className="mb-3 text-xl font-semibold text-[var(--color-primary)]">
+                  <h2 className="mb-3 text-xl font-semibold text-[var(--color-text)]">
                     Verantwortliche Stelle
                   </h2>
 
@@ -57,7 +57,7 @@ export default function DatenschutzPage() {
                 </section>
 
                 <section>
-                  <h2 className="mb-3 text-xl font-semibold text-[var(--color-primary)]">
+                  <h2 className="mb-3 text-xl font-semibold text-[var(--color-text)]">
                     Kontaktaufnahme
                   </h2>
 
@@ -70,7 +70,7 @@ export default function DatenschutzPage() {
                 </section>
 
                 <section>
-                  <h2 className="mb-3 text-xl font-semibold text-[var(--color-primary)]">
+                  <h2 className="mb-3 text-xl font-semibold text-[var(--color-text)]">
                     Ihre Rechte
                   </h2>
 
@@ -84,7 +84,7 @@ export default function DatenschutzPage() {
                 </section>
 
                 <section>
-                  <h2 className="mb-3 text-xl font-semibold text-[var(--color-primary)]">
+                  <h2 className="mb-3 text-xl font-semibold text-[var(--color-text)]">
                     Hosting
                   </h2>
 
@@ -97,7 +97,7 @@ export default function DatenschutzPage() {
                 </section>
 
                 <section>
-                  <h2 className="mb-3 text-xl font-semibold text-[var(--color-primary)]">
+                  <h2 className="mb-3 text-xl font-semibold text-[var(--color-text)]">
                     Stand
                   </h2>
 

@@ -24,7 +24,7 @@ export default function ImpressumPage() {
 
               <div className="mt-12 space-y-10 text-[var(--color-text)] leading-8">
                 <section>
-                  <h2 className="mb-3 text-xl font-semibold text-[var(--color-primary)]">
+                  <h2 className="mb-3 text-xl font-semibold text-[var(--color-text)]">
                     Angaben gemäß § 5 TMG
                   </h2>
 
@@ -42,7 +42,7 @@ export default function ImpressumPage() {
                 </section>
 
                 <section>
-                  <h2 className="mb-3 text-xl font-semibold text-[var(--color-primary)]">
+                  <h2 className="mb-3 text-xl font-semibold text-[var(--color-text)]">
                     Kontakt
                   </h2>
 
@@ -60,7 +60,7 @@ export default function ImpressumPage() {
                 </section>
 
                 <section>
-                  <h2 className="mb-3 text-xl font-semibold text-[var(--color-primary)]">
+                  <h2 className="mb-3 text-xl font-semibold text-[var(--color-text)]">
                     Verantwortlich für den Inhalt
                   </h2>
 
@@ -74,7 +74,7 @@ export default function ImpressumPage() {
                 </section>
 
                 <section>
-                  <h2 className="mb-3 text-xl font-semibold text-[var(--color-primary)]">
+                  <h2 className="mb-3 text-xl font-semibold text-[var(--color-text)]">
                     Umsatzsteuer
                   </h2>
 

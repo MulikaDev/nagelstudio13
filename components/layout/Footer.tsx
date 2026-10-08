@@ -10,7 +10,7 @@ export default function Footer() {
       <Container>
         <div className="border-t border-[var(--color-border)] pt-12">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-2xl font-semibold tracking-[0.01em] text-[var(--color-primary)]">
+            <h2 className="text-2xl font-semibold tracking-[0.01em] text-[var(--color-text)]">
               NAGELSTUDIO · 13
             </h2>
 
