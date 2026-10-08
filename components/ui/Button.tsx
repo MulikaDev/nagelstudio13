@@ -26,7 +26,7 @@ export default function Button({
         variant === "primary" &&
           "bg-[var(--color-primary)] text-white hover:bg-[var(--color-primary-hover)]",
         variant === "secondary" &&
-          "border border-[var(--color-border)] text-[var(--color-primary)] hover:bg-[var(--color-bg-soft)]",
+          "border border-[var(--color-border)] text-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-[var(--color-bg)]",
         className
       )}
     >
