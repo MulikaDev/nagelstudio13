@@ -28,7 +28,7 @@ const serviceGroups = [
         set: "Set 3",
         title: "Modellage (Verstärkung / Verlängerung)",
         duration: "ca. 120 Minuten",
-        price: "80 €",
+        price: "70 €",
         description:
           "Aufbau und Formgebung der Nägel mit Gel oder Polygel, ggf. Verlängerung, Farbgestaltung und Versiegelung.",
       },

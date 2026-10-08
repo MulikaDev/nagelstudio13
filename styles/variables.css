@@ -7,8 +7,8 @@
   --color-text: #171615;
   --color-muted: #867261;
 
-  --color-primary: #4A171B;
-  --color-primary-hover: #6a2328;
+  --color-primary: #171615;
+  --color-primary-hover: #2C2A29;
 
   --color-border: #d4c5b6;
   --color-accent: #B89B82;
@@ -33,7 +33,7 @@
 
   /* ========= SHADOWS ========= */
 
-  --shadow-soft: 0 20px 60px rgba(74, 32, 37, 0.08);
+  --shadow-soft: 0 20px 60px rgba(23, 22, 21, 0.08);
 
   /* ========= TRANSITIONS ========= */
 
